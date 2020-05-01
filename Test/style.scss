@@ -1,0 +1,98 @@
+// *{
+//     box-sizing: border-box;
+// }
+
+// // body, html{
+// //     margin: 0;
+// //     padding: 0;
+// //     background-color: black;}
+// .container{
+//     max-width: 960px;
+//     margin: 0 auto;}
+// header
+//     font-size: 1rem
+//     background-color: green 
+// .contant
+//     display: flex
+// .content
+//     flex: 70%
+//     background-color: yellow
+// .side-bar 
+//     flex: 30%
+//     background-color: blue
+// .circle
+//     display: inline-block
+//     background-color: black
+//     border-radius: 50%
+//     // width: 100%
+//     // height: 100%
+//     // transform: rotate(50deg)
+//     animation-name: circle
+//     animation-duration: 30s
+//     animation-iteration-count: infinite
+//     animation-timing-function: linear
+//     animation-direction: reverse
+// svg
+//     width: 33%
+// svg
+//     text 
+//         font-size: 2rem
+//         font-weight: 900
+//         text-transform: uppercase
+//         letter-spacing: 21px
+//         fill: white
+// svg
+//     text::before
+//         content: 'ddfe'
+//         width: 50px
+//         height: 50px
+//         background-color: #fff
+// footer
+//     background-color: #000000
+//     color: #ffffff 
+// @keyframes circle 
+//     0%
+//         transform: rotate(0)
+//     100%
+//         transform: rotate(360deg)
+// @media (max-width: 690px)
+//     .contant
+//         flex-direction: row-reverse
+
+
+    
+body {
+  background: #FFF;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+.slider {
+
+  color: #333;
+  padding:0 0 30px;
+  position: relative;
+}
+
+.slide {
+  font-size: 90px;
+  width: 150px;
+  padding:10px 0;
+  margin:20px 15px;
+  text-align: center;
+  border: 1px solid #999;
+}
+.slide.locked { background: rgba(255,255,0,0.5);}
+
+.slick-prev, .slick-next {
+  position: absolute;
+  bottom:0;
+}
+.slick-next { left:80px; }
+
+.slick-track {
+  display: flex;
+}
+.slick-list{
+  overflow: hidden;
+}
